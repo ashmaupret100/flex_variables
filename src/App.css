@@ -1,0 +1,29 @@
+header {
+  background-color: white;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li {
+  list-style: none;
+  display: inline;
+  padding: 40px;
+  text-decoration: none;
+}
+main {
+  height: 80vh;
+  width: 100vw;
+}
+main .image-box {
+  background-image: url("https://images.pexels.com/photos/3028961/pexels-photo-3028961.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70vh;
+  width: 100vw;
+  border-radius: 5%;
+}
+footer {
+  height: 10vh;
+}
